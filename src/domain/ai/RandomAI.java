@@ -7,9 +7,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 
-/**
- * Random AI player - chooses a random legal move.
- */
 public class RandomAI implements AIPlayer {
     private final Random random;
 

@@ -11,7 +11,7 @@ public class MinimaxAI implements AIPlayer {
     private final int depth;
     private final Player player;
 
-    // Dice probabilities: 1/16, 1/4, 3/8, 1/4, 1/16
+    // Dice probss: 1/16, 1/4, 3/8, 1/4, 1/16
     private static final double[] ROLL_PROBABILITIES = {
         1.0 / 16.0,  // roll 1
         1.0 / 4.0,   // roll 2

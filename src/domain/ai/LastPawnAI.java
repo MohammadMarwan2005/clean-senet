@@ -6,10 +6,6 @@ import domain.model.*;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Simple AI that always moves the last (furthest) pawn.
- * Corresponds to Elm's lastPawnAI function.
- */
 public class LastPawnAI implements AIPlayer {
     @Override
     public Optional<Pawn> chooseMove(GameState gameState, int roll) {
